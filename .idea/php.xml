@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/topthink/think-trace" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/league/flysystem-cached-adapter" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/form.shengliapi98.top/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+</project>

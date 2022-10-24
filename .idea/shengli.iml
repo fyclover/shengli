@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/form.shengliapi98.top/app" isTestSource="false" packagePrefix="app\" />
+      <sourceFolder url="file://$MODULE_DIR$/form.shengliapi98.top/extend" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/topthink/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/topthink/think-helper" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/topthink/think-orm" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/topthink/think-trace" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/league/flysystem-cached-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/form.shengliapi98.top/vendor/composer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

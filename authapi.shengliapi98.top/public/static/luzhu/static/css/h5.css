@@ -1,0 +1,54 @@
+*{ margin: 0 auto; padding: 0 auto; list-style: none;}
+body{margin: 0 auto; padding: 0 auto;}
+div{overflow: hidden;}
+/* .h5_main{width: 22.5rem; height: 100%;} */
+.h5_main{width: 40.5rem; height: 100%;}
+.my_video{width: 100%; height: 13.5rem;}  /* 高度 300px */
+.jingshan_zou{position: relative; width: 100%; height: 41.75rem;} /* 高度 366px */
+
+/* 珠子路 180px 高度 */
+.zou_zhuzi{position: relative; width: 58.5rem; height:13.5rem; margin-top: 0.125rem; left: 0rem; margin-top: 0.125rem;}
+.jingshan_zhuzi_bg_table{ position: absolute; z-index: 1; left: 0rem; top: 0rem; height: 100%; width: 100%;}
+.jingshan_zhuzi_bg_table_td{ float: left; width:2.1875rem; height: 2.1875rem; border-bottom: 1px solid #1c2bea; border-right: 1px solid #1c2bea; }
+.jingshan_zhuzi{ position: absolute; z-index: 2; left: 0rem; top: 0rem; height: 100%; width: 100%; border-left: 0.0625rem solid #2773e6; border-top: 0.0625rem solid #2773e6;  }
+.jingshan_zhuzi >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:2.25rem; height:2.25rem; }
+
+
+/* 具体 显示的位置 待修改 height 90px */
+.zou_dalu{position: relative; width:58.5rem;height: 13.5rem; margin-top: 0.125rem; left: 0rem; }
+.jingshan_dalu_bg_table{ position: absolute; z-index: 1; left: 0rem; top: 0rem; height: 100%; width: 100%;}
+.jingshan_dalu_bg_table_td{ float: left; width:2.1875rem; height: 2.1875rem; border-bottom: 1px solid #1c2bea; border-right: 1px solid #1c2bea; }
+.jingshan_dalu{position: absolute; z-index: 2; width: 100%; height:100%; border-left: 0.0625rem solid #2773e6;  border-top: 0.0625rem solid #2773e6;  }
+.content{ position: absolute; clear: both; z-index: 1;}
+.content_num{ text-align: left; position: absolute; clear: both; z-index: 2; margin-top: 6px; margin-left: 12px;}
+.jingshan_dalu >.content img{ border: none; position: absolute; left: 0px; top: 0px; width: 2.25rem; height: 2.25rem; }
+
+/* 暂时可能用不上了 */
+/* 大路 小路 三星 小强 */
+.zou_other{position: relative; width: 58.5rem;height: 13.5rem; margin-top: 0.125rem; left: 0rem; }
+.jingshan_oher_bg_table{ position: absolute; z-index: 1; left: 0rem; top: 0rem; height: 100%; width: 100%;}
+.jingshan_oher_bg_table_td{ float: left; width:2.1875rem; height: 2.1875rem; border-bottom: 1px solid #1c2bea; border-right: 1px solid #1c2bea; }
+.jingshan_oher{position: absolute; z-index: 2; width: 100%; height:100%; border-left: 0.0625rem solid #2773e6;  border-top: 0.0625rem solid #2773e6;  }
+
+.jingshan_down{ position: relative; width: 100%; height: 6.75rem; }
+
+.jingshan_dayan{ position: relative; width: 50%; height: 100%; float: left; }
+.jingshan_dayan >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:1.180rem; height:1.180rem; }
+.jingshan_xiaoqiang{ position: relative; width: 50%; height: 100%; float: right; }
+.jingshan_xiaoqiang >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:1.025rem; height:1.025rem; }
+
+.jingshan_xiaolu{ position: relative; width: 50%; height: 100%; float: left; }
+.jingshan_xiaolu >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:1.025rem; height:1.025rem; }
+.jingshan_sanxing{ position: relative; width: 50%; height: 100%; float: right; }
+.jingshan_sanxing >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:2.25rem; height:2.25rem; }
+
+/* 问路 */
+.wenlu_content{ width: 25%; float: left; cursor: pointer; text-align: left; height: 1.875rem; line-height: 1.875rem; }
+.wenlu_content img{ width: 1rem; height: 1rem; line-height: 1.875rem; vertical-align: middle; margin-top: 0.5rem; display: inline-block; float: left; margin-left:0.5rem; }
+.wenlu_button{ width: 80px; background-color: #e64340; text-align: center; }
+.wenlu_button:hover{ background-color: #ffbe00; }
+#wenlu_show_red,#wenlu_show_blue{ width: 80px;}
+
+/* 显示文字 */
+.zou_text{display: flex;justify-content: flex-start;font-size: 12px;margin: 0 0 50px 0;}
+.zou_text span{margin: 0}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>h5路单-打印-三公</title>
+        <link rel="stylesheet" type="text/css" href="static/css/luzhu_three.css"/>
+        <script type="text/javascript" src="static/js/jquery-1.10.2.min.js" ></script>
+	</head>
+	<body>
+		<div id="">
+			<div id="main_luzhu_container">
+			</div>
+			<div class="zou_text">
+				<span>游戏类型：</span>
+				<span id="zou_game_name"></span>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>桌号：</span>
+				<span id="zou_game_table_name"></span>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>靴号：</span>
+				<span id="zou_game_xue"></span>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>日期：</span>
+				<span id="zou_game_date"></span>
+			</div>
+			<div style="width: 100%; height: 1.875rem; background-color: #009E94; text-align: center; margin-top: 0.5rem;">
+				<span style="color: white; text-decoration: none; line-height: 1.875rem;" onclick="printHtml()">打印</span>
+			</div>
+		</div>
+		
+		
+	</body>
+    
+	
+    <script type="text/javascript" src="static/js/base_url.js" ></script>
+    <script type="text/javascript" src="static/js/ajax_base.js" ></script>
+    <!-- <script type="text/javascript" src="static/js/socket.js" ></script> -->
+	<script  type="text/javascript">
+		for(let i =0; i<4; i++) {
+			let html = `
+				<section class="main" >
+				    <div class="main_panel">
+				        <div class="main_row">
+				            <div class="main_name main_zhuang">
+				                庄
+				            </div>
+				            <div class="main_result" id="main_zhuang_${i}">
+				            </div>
+				        </div>
+				        <div class="main_row">
+				            <div class="main_name main_xian1">
+				                闲1
+				            </div>
+				            <div class="main_result" id="main_xian1_${i}">
+				            </div>
+				        </div>
+				        <div class="main_row">
+				            <div class="main_name main_xian2">
+				                闲2
+				            </div>
+				            <div class="main_result" id="main_xian2_${i}">
+				            </div>
+				        </div>
+				        <div class="main_row main_last_row">
+				            <div class="main_name  main_xian3">
+				                闲3
+				            </div>
+				            <div class="main_result" id="main_xian3_${i}">
+				            </div>
+				        </div>
+				    </div>
+				</section>
+			`
+			$("#main_luzhu_container").append(html)
+		}
+    </script>
+    <script type="text/javascript" src="static/js/zou_table_three.js" ></script>
+	
+</html>

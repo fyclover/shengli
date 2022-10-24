@@ -1,0 +1,128 @@
+/* 基本参数 */
+*{ padding: 0; list-style: none; margin: 0;box-sizing: border-box;}
+html,body{font-size: 16px; height: 100%;}
+html{
+	width: 100%;
+}
+body{ margin: 0 auto;position: relative;}
+body{
+	width: 1000px;
+}
+
+.main{
+	height: 130px;
+    position: relative;
+    /* background-color: #4e5550; */
+    width: 100%;
+	margin-bottom: 5px;
+}
+.main_last_row{
+	border-bottom: 1px solid #98979A;
+}
+.main_panel{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main_zhuang{
+    background-color: #3A3A3A;
+}
+.main_row{
+	height: 32px;
+    display: flex;
+}
+.main_xian1{
+    background-color: #2D4399;
+}
+.main_xian2{
+    background-color: #0692F3;
+}
+.main_xian3{
+    background-color: #01AC99;
+}
+.main_name{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main_result{
+    flex: 1;
+    display: flex;
+}
+.main_cell{
+    width: 24px;
+    background-color: white;
+    border-top: 1px solid #98979A;
+    border-right: 1px solid #98979A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_text{
+    width: 24px;
+    height: 24px;
+    background-color: #3A3A3A;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.main_poker_panel{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    display: none;
+    flex-direction: column;
+}
+.main_pok_top{
+    display: flex;
+    height: calc(100% * 0.71224);
+}
+.main_pok_box{
+    flex: 1;
+}
+.main_pok_show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main_pok_show img{
+    width: 1.35rem;
+    margin:3px 5px;
+    border-radius: 3px;
+}
+.main_pok_txt {
+    display: flex;
+    justify-content: center;
+    color: #00BCFC;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif , "Helvetica" , "Microsoft Yahei";
+}
+.main_pok_bottom{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.main_pok_res{
+    margin-left: 5px
+}
+/* 显示文字 */
+.zou_text{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 12px;
+	margin: 0 0 50px 0;
+}
+.zou_text span{
+	margin: 0
+}
+

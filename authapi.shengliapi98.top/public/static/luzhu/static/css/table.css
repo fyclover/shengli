@@ -1,0 +1,143 @@
+/* 基本参数 */
+*{ margin: 0 auto; padding: 0 auto; list-style: none;}
+body{background-color: #070f29; margin: 0 auto; padding: 0 auto; position: relative;}
+div{overflow: hidden;}
+/* 顶部导航 */
+.top{width: 100%; height: 7.375rem;  background-image: url(../img/top_bg.png); background-repeat: repeat-x;}
+.top_main{width: 118.1875rem; height: 100%; background-image: url(../img/top.png);background-repeat: no-repeat; position: relative; text-align: center;}
+.top_title{color: #7efafc; font-size: 2.25rem; padding-top: 1.2rem; cursor: pointer; }
+.top_set{color: #7efafc; font-size:1.125rem; bottom: 0.5rem; right: 0.5rem; position: absolute; cursor: pointer;}
+/* 单个格子86px  1890px 这样 下面的格子 就是 35px 一个 加1px 边界就是 1891px  */
+.main{width: 118.375rem;}
+/* 珠子路 基本信息 */
+.main_top{width: 100%; height: 32.3125rem; position: relative;margin-bottom: 0.5rem;}
+/* left */
+.main_top_left{ position: relative; float: left; width:59.1875rem; height: 100%; } /* 947px 517px 85 一个格子，算上应该 1px  */
+.table_zhuzi_bg{position: absolute; left: 0rem; top: 0rem;  width: 100%; height: 100%; z-index: 1; border-top: 1px solid #1c2bea; border-left: 1px solid #1c2bea;}
+.table_zhuzi_bg_td{float: left; width:5.3125rem; height: 5.3125rem; border-bottom: 1px solid #1c2bea; border-right: 1px solid #1c2bea;}
+/* 珠子路 */
+.jingshan_zhuzi{position: relative; width:59.1875rem; height: 100%;border-left: 0.0625rem solid #2773e6; background-color: white; }
+.jingshan_zhuzi > .content {width: 5.375rem; height: 5.375rem;}
+.jingshan_zhuzi > .content > img{width: 5.375rem; height: 5.375rem;}
+/* 默认是 942px  */
+.main_top_right{float: left; width:58.75rem; height:32.1875rem; margin-left: 0.125rem;  background-color: #011049; border: 0.0625rem solid #2773e6; position: relative;}
+.main_top_right div{position: absolute;}
+/* 行1 */
+.right_name{left: 2rem; top: 1rem; color: #fef72f; font-size: 3rem;}
+.right_xue{left: 19rem; top: 1rem; color: #fef72f; font-size: 3rem;}
+.right_pu{left: 38rem; top: 1rem; color: #fef72f; font-size: 3rem;}
+/* 行2 */
+.right_xianhong{left: 2rem; top: 6rem; color: #fef72f; font-size: 2.25rem;}
+.right_zhuang{left: 15rem; top: 6rem; color: #af071e; font-size: 2.25rem;}
+.right_xian{left: 22rem; top: 6rem; color: #06a7ea; font-size: 2.25rem;}
+.right_he{left: 35rem; top: 6rem; color: #1fc94b; font-size: 2.25rem;}
+.right_duizi{left: 48rem; top: 6rem; color: #fef72f; font-size: 2.25rem;}
+/* 行3 */
+.right_xianhong_en{left: 2.5rem; top: 9rem; color: #fef72f; font-size: 1.25rem;}
+.right_zhuang_en{left: 14rem; top: 9rem; color: #af071e; font-size: 1.25rem;}
+.right_xian_en{left: 21rem; top: 9rem; color: #06a7ea; font-size: 1.25rem;}
+.right_he_en{left: 35.3rem; top: 9rem; color: #1fc94b; font-size: 1.25rem;}
+.right_duizi_en{left: 48rem; top: 9rem; color: #fef72f; font-size: 1.25rem;}
+/* 行4 */
+.right_money_name{left: 2rem; top: 11rem; color: #fef72f; font-size: 2rem;}
+.right_money_banker_player{left: 16rem; top: 11rem; color: #fef72f; font-size: 2rem;}
+.right_money_tie{left: 33rem; top: 11rem; color: #fef72f; font-size: 2rem;}
+.right_money_pair{left: 47rem; top: 11rem; color: #fef72f; font-size: 2rem;}
+/* 行4 */
+.right_money_name_cny{left: 2rem; top: 14rem; color: #fef72f; font-size: 2rem;}
+.right_money_banker_player_cny{left: 16rem; top: 14rem; color: #fef72f; font-size: 2rem;}
+.right_money_tie_cny{left: 33rem; top: 14rem; color: #fef72f; font-size: 2rem;}
+.right_money_pair_cny{left: 47rem; top: 14rem; color: #fef72f; font-size: 2rem;}
+/* 行5 庄 */
+.right_wenlu_banker_img{left: 2rem; top: 17.5rem; background-color: #af071e; color: white; font-size: 1.75rem; width: 2.6rem; height: 2.6rem; border-radius: 1.3rem;}
+.right_wenlu_banker_title{left: 6rem; top: 18rem; color: #af071e; font-size: 1.5rem;}
+.right_wenlu_banker_num{left: 14rem; top: 18rem; color: #af071e; font-size: 1.5rem;}
+/* 行5 闲 */
+.right_wenlu_player_img{left: 2rem; top: 20.5rem; background-color: #0697ea; color: white; font-size: 1.75rem; width: 2.6rem; height: 2.6rem; border-radius: 1.3rem;}
+.right_wenlu_player_title{left: 6rem; top: 21rem; color: #0697ea; font-size: 1.5rem;}
+.right_wenlu_player_num{left: 14rem; top: 21rem; color: #0697ea; font-size: 1.5rem;}
+/* 行5 问路 */
+.right_wenlu_tie_img{left: 2rem; top: 23.5rem; background-color: #01b90f; color: white; font-size: 1.75rem; width: 2.6rem; height: 2.6rem; border-radius: 1.3rem;}
+.right_wenlu_tie_title{left: 6rem; top: 24rem; color: #01b90f; font-size: 1.5rem;}
+.right_wenlu_tie_num{left: 14rem; top: 24rem; color: #01b90f; font-size: 1.5rem;}
+/* 行6 */
+.right_wenlu_zhuangdui_title{left: 2rem; top: 26.5rem; color: #af071e; font-size: 1.5rem;}
+.right_wenlu_zhuangdui_num{left: 14rem; top: 26.5rem; color: #af071e; font-size: 1.5rem;}
+.right_wenlu_xiandui_title{left: 2rem; top: 29rem; color: #0697ea; font-size: 1.5rem;}
+.right_wenlu_xiandui_num{left: 14rem; top: 29rem; color: #0697ea; font-size: 1.5rem;}
+/* 行7 */
+.right_wenlu_name{left: 20rem; top: 18rem; color: #fef72f; font-size: 1.8rem;}
+.right_wenlu_zhuang_img{left: 20rem; top: 21rem; background-color: #af071e; color: white; font-size: 1.5rem; width: 2.2rem; height: 2.2rem; border-radius: 1.1rem;}
+.right_wenlu_xian_img{left: 25rem; top: 21rem; background-color: #0697ea; color: white; font-size: 1.5rem; width: 2.2rem; height: 2.2rem; border-radius: 1.1rem;}
+
+/* 庄闲问路显示 */
+.right_wenlu_zhuang_img_1{left: 20rem; top: 23.5rem; width: 2.2rem; height: 2.2rem;}
+.right_wenlu_xian_img_1{left: 25rem; top: 23.5rem; width: 2.2rem; height: 2.2rem;}
+.right_wenlu_zhuang_img_2{left: 20rem; top: 26rem; width: 2.2rem; height: 2.2rem; }
+.right_wenlu_xian_img_2{left: 25rem; top: 26rem; width: 2.2rem; height: 2.2rem;}
+.right_wenlu_zhuang_img_3{left: 20rem; top: 28.5rem; width: 2.2rem; height: 2.2rem;}
+.right_wenlu_xian_img_3{left: 25rem; top: 28.5rem; width: 2.2rem; height: 2.2rem;}
+
+.right_wenlu_zhuang_img_1 img{ width: 2.2rem; height: 2.2rem; border-radius: 1.1rem;}
+.right_wenlu_xian_img_1 img{ width: 2.2rem; height: 2.2rem; border-radius: 1.1rem;}
+.right_wenlu_zhuang_img_2 img{ width: 2.2rem; height: 2.2rem; border-radius: 1.1rem;}
+.right_wenlu_xian_img_2 img{ width: 2.2rem; height: 2.2rem; border-radius: 1.1rem;}
+.right_wenlu_zhuang_img_3 img{ width: 2.2rem; height: 2.2rem; border-radius: 1.1rem;}
+.right_wenlu_xian_img_3 img{ width: 2.2rem; height: 2.2rem; border-radius: 1.1rem; }
+
+/* 行8 */
+.right_logo{left: 31rem; top: 18rem; color: #fef72f; font-size: 2.25rem; width: 13rem; height: 13rem; background-color: #2773E6;text-align: center;}
+.right_logo img{width: 100%; height: 100%;}
+.right_action_bg{left: 45rem; top: 18rem; width: 12.5rem; height: 12.5rem; border: 0.25rem solid #fef72f; border-radius: 50%;}
+.right_action_title_en{left: 47rem; top: 19.5rem; color: #fef72f; font-size: 4rem;}
+.right_action_title_name{left: 49.2rem; top: 24rem; color: #fef72f; font-size: 4rem;}
+.right_action_title_num{left: 48rem; top: 20rem; color: #fef72f; font-size: 6rem; display: none;}
+
+/* 行8 底部走势图 */
+/* 26.875 rem 等于长度 430px 高度210px 单个格子长度 35px  最长显示 54个 横格子 6个竖格子 */
+.main_bottom{width: 100%; height: 13.125rem; background-color: white; position: relative; margin-bottom: 0.5rem;}
+.table_bg{position: absolute; width: 100%; height: 100%; left: 0rem; top: 0rem; z-index: 1; border-top: 1px solid #1c2bea; border-left: 1px solid #1c2bea;}
+.table_bg_td{float: left; width: 2.125rem; height: 2.125rem; border-bottom: 1px solid #1c2bea; border-right: 1px solid #1c2bea;}
+.jingshan_right{ position: absolute; left: 0rem; top: 0rem; width: 100%; height: 100%; z-index: 2; }
+
+/* 具体 显示的位置 待修改 */
+.jingshan_dalu{position: relative; width: 100%; height: 100%; }
+.content{ position: absolute; clear: both; z-index: 1;}
+.content_num{ text-align: left; position: absolute; clear: both; z-index: 2; margin-top: 2px; margin-left: 7px;}
+.jingshan_dalu >.content img{ border: none; position: absolute; left: 0px; top: 0px; width: 2.1875rem; height: 2.1875rem; }
+/* 大路 小路 */
+.jingshan_down{ position: relative; width: 100%; height: 50%; }
+
+.jingshan_dayan{ position: relative; width: 50%; height: 100%; float: left; }
+.jingshan_dayan >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:1.125rem; height:1.125rem; }
+.jingshan_xiaoqiang{ position: relative; width: 50%; height: 100%; float: right; }
+.jingshan_xiaoqiang >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:1.125rem; height:1.125rem; }
+.jingshan_xiaolu{ position: relative; width: 50%; height: 100%; float: left; }
+.jingshan_xiaolu >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:1.125rem; height:1.125rem; }
+.jingshan_sanxing{ position: relative; width: 50%; height: 100%; float: right; }
+.jingshan_sanxing >.content img{ border: none; position: absolute; left: 0px; top: 0px; width:2.1875rem; height:2.1875rem; }
+
+/* 问路 */
+.jingshan_wenlu{ width: 1200px; height: 24px; background-color: aqua; overflow: hidden; text-align: right; }
+.wenlu_content{ float: left; cursor: pointer; margin-left: 10px; height: 24px; line-height: 24px;}
+.wenlu_content img{ margin-left: 8px; }
+.wenlu_button{ width: 80px; background-color: #e64340; text-align: center; }
+.wenlu_button:hover{ background-color: #ffbe00; }
+#wenlu_show_red,#wenlu_show_blue{ width: 80px; }
+
+/* 展示结果 */
+.result_red {}
+.result_blue {}
+.result_green {}
+.show_result{width:38.75rem; height: 38.75rem;  position: absolute; z-index: 3; left: 30%; top: 20%; overflow: hidden; display: none;}
+.show_result > .quan {width:37.5rem; height: 37.5rem; left: 0rem; top: 0px; position: absolute; border-radius: 18.75rem; border: 10px solid #1C2BEA;}
+.show_result > .zi{position: absolute; width:37.5rem; height: 37.5rem; line-height: 37.5rem; font-size:28.75rem; left: 5rem; top:-2rem; color: #01B90F; }
+.show_result > .dian_left{position: absolute; width: 6.25rem; height: 6.25rem; left: 2.2rem; top: 2.2rem; background-color: #af071e; border-radius: 3.125rem; display: none;}
+.show_result > .dian_right{position: absolute; width: 6.25rem; height: 6.25rem; right: 2.2rem; bottom: 2.2rem; background-color: #1c2bea; border-radius: 3.125rem; display: none;}
+
+/* PC 页面的 问路 */
+.wenlu_content{ width: 25%; float: left; cursor: pointer; text-align: left; height: 1.875rem; line-height: 1.875rem; }
+.wenlu_content img{ width: 1rem; height: 1rem; line-height: 1.875rem; vertical-align: middle; margin-top: 0.5rem; display: inline-block; float: left; margin-left:0.5rem; }
+.wenlu_button{ width: 80px; background-color: #e64340; text-align: center; }
+.wenlu_button:hover{ background-color: #ffbe00; }
+#wenlu_show_red,#wenlu_show_blue{ width: 80px;}

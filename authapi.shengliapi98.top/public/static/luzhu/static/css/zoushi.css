@@ -1,0 +1,104 @@
+.jingshan_wenlu{
+	width: 1200px;
+	height: 24px;
+	background-color: aqua;
+	overflow: hidden;
+	text-align: right;
+}
+.wenlu_content{
+	float: left;
+	cursor: pointer;
+	margin-left: 10px;
+	height: 24px;
+	line-height: 24px;
+}
+.wenlu_content img{
+	margin-left: 8px;
+}
+.wenlu_button{
+	width: 80px;
+	background-color: #e64340;
+	text-align: center;
+}
+.wenlu_button:hover{
+	background-color: #ffbe00;
+}
+#wenlu_show_red,#wenlu_show_blue{
+	width: 80px;
+}
+.jingshan_zou{
+	width: 1200px;
+	height: 288px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	background-image: url("../img/bg.png");
+}
+.jingshan_zou div{
+	overflow: hidden;
+}
+.jingshan_zhuzi{
+	position: relative;
+	width: 528px;
+	height: 288px;
+	float: left;
+}
+.jingshan_right{
+	position: relative;
+	width: 672px;
+	height: 288px;
+	float: right;
+}
+.jingshan_dalu{
+	width: 672px;
+	height: 144px;
+}
+.content{
+	position: absolute;
+	clear: both;
+	z-index: 1;
+}
+.content_num{
+	text-align: left;
+	position: absolute;
+	clear: both;
+	z-index: 2;
+	margin-top: 2px;
+	margin-left: 7px;
+}
+.content img{
+	border: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.jingshan_down{
+	position: relative;
+	width: 672px;
+	height: 72px;
+}
+.jingshan_dayan{
+	position: relative;
+	width: 336px;
+	height: 72px;
+	float: left;
+}
+.jingshan_xiaoqiang{
+	position: relative;
+	width: 336px;
+	height: 72px;
+	float: right;
+}
+.jingshan_xiaolu{
+	position: relative;
+	width: 336px;
+	height: 72px;
+	float: left;
+}
+.jingshan_sanxing{
+	position: relative;
+	width: 336px;
+	height: 72px;
+	float: right;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    xxxxxxxxxxxxxxxxx
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    ws = new WebSocket('ws://127.0.0.1:2000');
+    ws.onopen =function (a){
+        console.log(a)
+        var message = {
+            user_id: 123456,
+            table_id: 1,
+            game_type: 12321
+        };
+        ws.send(JSON.stringify(message));
+    };
+    ws.onclose = function (a){
+        console.log('断开连接')
+    };
+    ws.onmessage =function (a) {
+        console.log(a)
+        console.log('收到客户端消息')
+
+    }
+
+</script>
